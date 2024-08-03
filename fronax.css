@@ -1,0 +1,87 @@
+text-decoration: none;
+display: inline-block;
+margin: 0 60px; 
+  
+}
+
+.container {
+display: grid;
+grid-template-columns: 73% 25%;
+ gap: 2%;
+ margin-top: 1%;
+}
+
+.column {
+float: left; 
+background-color: white; 
+padding: 20px; 
+
+border-radius: 10px;
+max-height: 100%;
+box-sizing: border-box; 
+}
+
+
+
+.container::after {
+content: "";
+display: table;
+clear: both;
+}
+
+.intelligence-artificielle{
+font-size: normal;
+font-style: italic;
+text-decoration: underline;
+text-shadow: -2px 2px 2px #85C1E9;
+}
+.justify {
+text-align: justify;
+}
+
+.pub{
+font-style: italic;
+text-decoration: underline;
+font-size: small;
+}
+.paragraph {
+display: flex;
+justify-content: space-between;
+width: 100%;
+padding-right: 6%;
+}
+
+.left {
+flex: 1;
+padding-right: 2%;
+
+}
+ul{
+line-height: 2.5;
+}
+
+.right {
+flex: 1;
+padding-right: 6%;
+text-align: center;
+}
+
+img {
+width: 100%;
+}
+
+footer {
+position: relative;
+margin-top: 10px;
+display: flex;
+border-radius: 10px;
+overflow: hidden;
+align-items: center; 
+}
+.footer span {
+display: inline-block;
+}
+
+.footer span:first-letter {
+color: red;
+}
